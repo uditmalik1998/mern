@@ -1,0 +1,30 @@
+.register_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .formData {
+      display: flex;
+      flex-direction: column;
+      min-width: 20rem;
+      margin: 1rem;
+      border: 1px solid grey;
+      border-radius: 10px;
+      padding: 29px 44px;
+      .form_items {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        .err{
+          color: red;
+      font-size: 12px;
+        }
+        .form_input {
+          padding: 5px;
+          border-radius: 5px;
+          border: 1.25px solid grey;
+        }
+      }
+    }
+  }
+  

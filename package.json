@@ -1,0 +1,17 @@
+{
+  "name": "mernuser",
+  "version": "1.0.0",
+  "description": "Mern Stack Assignment",
+  "main": "index.js",
+  "repository": "git@github.com:uditmalik1998/mern.git",
+  "author": "uditmalik1998 <uditmalik34@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "frontend": "parcel packages/frontend/index.html",
+    "backend": "nodemon packages/backend/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "parcel": "^2.11.0"
+  }
+}
